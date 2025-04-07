@@ -7,7 +7,7 @@ name = "ypy-sqlite"
 version = "0.1.0"
 description = "SQLite persistence provider for YPY (Python bindings for YJS)"
 authors = [
-    {name = "YPY SQLite Team", email = "example@example.com"}
+    {name = "Viktor Nawrath", email = "vima00@seznam.cz"}
 ]
 readme = "README.md"
 requires-python = ">=3.7"
@@ -23,7 +23,13 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
 ]
+keywords = ["yjs", "crdt", "sqlite", "persistence", "collaboration", "y-py"]
 dependencies = [
     "y-py>=0.6.2",
     "aiosqlite>=0.18.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/vnawrath/ypy-sqlite"
+Repository = "https://github.com/vnawrath/ypy-sqlite"
+"Bug Tracker" = "https://github.com/vnawrath/ypy-sqlite/issues"
